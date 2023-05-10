@@ -2,6 +2,8 @@
 
 Sandbox tool for playing around with Tiptap and interacting with the raw JSON output.
 
+![CleanShot 2023-05-10 at 12 43 13@2x](https://github.com/JacobFitzp/tiptap-sandbox/assets/34043417/1a7c79b6-46c3-4663-aa18-17bc741c746c)
+
 ## Setup
 
 Make sure to install the dependencies:
