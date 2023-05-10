@@ -1,6 +1,7 @@
 <template>
-  <div class="">
-    <div class="border border-gray-400 shadow rounded-lg">
+  <div>
+    <p>Update the editor configuration in <u>Pages/index.vue</u>.</p>
+    <div class="mt-4 border border-gray-400 shadow rounded-lg">
       <div class="p-2 border-b border-gray-400 flex gap-2">
         <a
           v-for="item in toolbar"
@@ -13,7 +14,7 @@
       </div>
       <editor-content :editor="editor"></editor-content>
     </div>
-    <h2 class="mt-4 text-lg font-semibold">Output <Icon class="cursor-pointer hover:text-gray-500" name="material-symbols:content-copy" /></h2>
+    <h2 class="mt-4 text-lg font-semibold"><Icon name="mdi:code-json" /> Output</h2>
     <pre class="mt-4 border-l-4 pl-4 border-gray-300 text-xs">{{ content }}</pre>
   </div>
 </template>
